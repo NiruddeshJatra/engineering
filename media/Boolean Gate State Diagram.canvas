@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"0152dacda6651ca0","type":"text","text":"**NOT GATE - ON**","x":-220,"y":-360,"width":250,"height":60},
+		{"id":"3f49dbc44fb84a01","type":"text","text":"**AND GATE**","x":-220,"y":-1100,"width":250,"height":60},
+		{"id":"11e62ebd5f0f5c59","type":"text","text":"**OR GATE**","x":-220,"y":-730,"width":250,"height":60},
+		{"id":"912565792616ac9d","type":"file","file":"media/Screenshot 2026-04-23 092812.png","x":-220,"y":-240,"width":399,"height":240},
+		{"id":"bb52918794dbf833","type":"file","file":"media/Screenshot 2026-04-23 093158.png","x":-221,"y":-640,"width":400,"height":228},
+		{"id":"d50aa9ba545b6268","type":"file","file":"media/Screenshot 2026-04-23 093107.png","x":-221,"y":-980,"width":400,"height":223},
+		{"id":"e5a4ee6a95697667","type":"text","text":"**NOT GATE - OFF**","x":-219,"y":20,"width":250,"height":60},
+		{"id":"02432b911c664f70","x":-221,"y":120,"width":400,"height":247,"type":"file","file":"media/Screenshot 2026-04-23 092859.png"}
+	],
+	"edges":[]
+}

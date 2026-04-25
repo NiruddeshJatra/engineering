@@ -1,0 +1,279 @@
+{
+  "main": {
+    "id": "a7e063c6a72a25c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "43fb9cdadf1c12a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "147473def0fbcbc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vault/03-sources/crash-course-cs-ep06.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "crash-course-cs-ep06"
+            }
+          },
+          {
+            "id": "9e3460db73ff55bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vault/03-sources/crash-course-cs-ep07.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "crash-course-cs-ep07"
+            }
+          },
+          {
+            "id": "bc33ad57a9b57f61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vault/03-sources/crash-course-cs-ep08.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "crash-course-cs-ep08"
+            }
+          },
+          {
+            "id": "d95a6e019bd4b798",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vault/02-daily/2026-04-25.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-25"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9e68ad879c8cf19a",
+    "type": "split",
+    "children": [
+      {
+        "id": "32a2891e7eff65ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf427cff6cc16edc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e6dc0dde778e3808",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fdd2305a8f4421cd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "a4c9c074c370ab36",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac5b485707a185da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "828694437baeb24b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "b2f3d4e4f73e89cf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "0c0e4384792099a1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bb853a8e06952ffc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9c3a331205716c65",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "d95a6e019bd4b798",
+  "lastOpenFiles": [
+    "engineering/README.md",
+    "engineering",
+    "vault/02-daily/2026-04-24.md",
+    "vault/02-daily/2026-04-25.md",
+    "vault/04-concepts/Programs.md",
+    "vault/04-concepts/Clock.md",
+    "vault/03-sources/crash-course-cs-ep08.md",
+    "vault/03-sources/crash-course-cs-ep07.md",
+    "vault/02-daily/2026-04-23.md",
+    "vault/02-daily/2026-04-22.md",
+    "vault/02-daily/2026-04-21.md",
+    "vault/04-concepts/CPU.md",
+    "vault/04-concepts/RAM.md",
+    "vault/04-concepts/ALU.md",
+    "vault/04-concepts/Register.md",
+    "vault/03-sources/crash-course-cs-ep06.md",
+    "vault/05-ai-chats/gemini-RAM-vs-Register-confusions.md",
+    "media/Registers & RAM.canvas",
+    "media/Gemini_Generated_Image_px59u1px59u1px59.png",
+    "media/Screenshot 2026-04-23 092859.png",
+    "media/Screenshot 2026-04-24 094735.png",
+    "media/Screenshot 2026-04-24 094709.png",
+    "media/Screenshot 2026-04-24 094643.png",
+    "media/Screenshot 2026-04-24 094137.png",
+    "vault/03-sources/crash-course-cs-ep05.md",
+    "vault/03-sources/crash-course-cs-ep04.md",
+    "vault/03-sources/crash-course-cs-ep03.md",
+    "vault/03-sources/crash-course-cs-ep02.md",
+    "vault/03-sources/crash-course-cs-ep01.md",
+    "vault/01-curriculum/progress-tracker.md",
+    "vault/01-curriculum/week-01.md",
+    "media/Screenshot 2026-04-23 093107.png",
+    "media/Boolean Gate State Diagram.canvas",
+    "media/Screenshot 2026-04-24 094608.png",
+    "media/Screenshot 2026-04-24 094527.png",
+    "media/Screenshot 2026-04-24 094359.png",
+    "vault/04-concepts/Images, Sound and similar types of information in Binary.md",
+    "vault/04-concepts/ASCII & Unicode.md",
+    "vault/04-concepts/Binary Numbers.md",
+    "media",
+    "Untitled.base",
+    "vault/08-reviews",
+    "vault/07-weak-spots",
+    "vault/06-questions",
+    "vault/05-ai-chats",
+    "vault/03-sources",
+    "vault/01-curriculum"
+  ]
+}
