@@ -8,49 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "147473def0fbcbc5",
+            "id": "5cb03e32e370ab2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vault/03-sources/crash-course-cs-ep06.md",
+                "file": "vault/03-sources/cs50-lec-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "crash-course-cs-ep06"
+              "title": "cs50-lec-01"
             }
           },
           {
-            "id": "9e3460db73ff55bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vault/03-sources/crash-course-cs-ep07.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "crash-course-cs-ep07"
-            }
-          },
-          {
-            "id": "bc33ad57a9b57f61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vault/03-sources/crash-course-cs-ep08.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "crash-course-cs-ep08"
-            }
-          },
-          {
-            "id": "d95a6e019bd4b798",
+            "id": "14ec8093fd4b98a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,15 +198,29 @@
       "bases:Create new base": false
     }
   },
-  "active": "d95a6e019bd4b798",
+  "active": "14ec8093fd4b98a5",
   "lastOpenFiles": [
-    "engineering/README.md",
-    "engineering",
     "vault/02-daily/2026-04-24.md",
     "vault/02-daily/2026-04-25.md",
+    "vault/03-sources/cs50-lec-01.md",
+    "vault/04-concepts/Code Evaluation.md",
+    "[Programming Basics.md",
+    "vault/04-concepts/Programming Basics.md",
+    "vault/04-concepts/Compiler.md",
+    "vault/04-concepts/Algorithms.md",
+    "vault/03-sources/cs50-lec-00.md",
+    "assignments/claude/week-1-question.md",
+    "assignments/cs50/lec-01-C/hello.c",
+    "assignments/cs50/lec-01-C.md",
+    "assignments/cs50/lec-01-C",
+    "assignments/cs50",
+    "assignments/claude",
+    "assignments",
     "vault/04-concepts/Programs.md",
-    "vault/04-concepts/Clock.md",
     "vault/03-sources/crash-course-cs-ep08.md",
+    "engineering/README.md",
+    "engineering",
+    "vault/04-concepts/Clock.md",
     "vault/03-sources/crash-course-cs-ep07.md",
     "vault/02-daily/2026-04-23.md",
     "vault/02-daily/2026-04-22.md",
@@ -253,27 +239,14 @@
     "media/Screenshot 2026-04-24 094643.png",
     "media/Screenshot 2026-04-24 094137.png",
     "vault/03-sources/crash-course-cs-ep05.md",
-    "vault/03-sources/crash-course-cs-ep04.md",
-    "vault/03-sources/crash-course-cs-ep03.md",
-    "vault/03-sources/crash-course-cs-ep02.md",
-    "vault/03-sources/crash-course-cs-ep01.md",
-    "vault/01-curriculum/progress-tracker.md",
-    "vault/01-curriculum/week-01.md",
     "media/Screenshot 2026-04-23 093107.png",
     "media/Boolean Gate State Diagram.canvas",
     "media/Screenshot 2026-04-24 094608.png",
     "media/Screenshot 2026-04-24 094527.png",
     "media/Screenshot 2026-04-24 094359.png",
-    "vault/04-concepts/Images, Sound and similar types of information in Binary.md",
-    "vault/04-concepts/ASCII & Unicode.md",
-    "vault/04-concepts/Binary Numbers.md",
     "media",
     "Untitled.base",
     "vault/08-reviews",
-    "vault/07-weak-spots",
-    "vault/06-questions",
-    "vault/05-ai-chats",
-    "vault/03-sources",
-    "vault/01-curriculum"
+    "vault/07-weak-spots"
   ]
 }
