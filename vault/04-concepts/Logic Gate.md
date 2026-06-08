@@ -1,5 +1,8 @@
-
-#medium 
+---
+tags:
+  - medium
+source: "[[crash-course-cs-ep03]]"
+---
 
 ## Definition
 Tiny components made by transistors which follow Boolean logic
@@ -11,11 +14,7 @@ Tiny components made by transistors which follow Boolean logic
 - In NOT gate, output wire is connected to the start of the transistor instead of end. But better understanding: [[Boolean Gate State Diagram.canvas]]
 
 ## Why it matters to me as a dev
-Understanding how Boolean operations are implemented by transistors is cool
+Understanding how Boolean operations are implemented by [[transistors]] is cool
 
-## Open questions
-None
-
-## Links
-- Contains: [[Boolean Algebra]], [[Transistors]]
-- Source: [[crash-course-cs-ep03]]
+## In my words
+Logic gate, the foundation for the larger chips used in every part of a computer. [[ALU]], [[RAM]], [[Register]], [[CPU]] - everything is primarily made of them.

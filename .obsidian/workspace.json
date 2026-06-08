@@ -22,21 +22,35 @@
             }
           },
           {
+            "id": "af63712356e28abc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vault/06-questions/open-questions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "open-questions"
+            }
+          },
+          {
             "id": "14ec8093fd4b98a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vault/02-daily/2026-04-25.md",
+                "file": "vault/09-ultimate-learnings/Explain the difference between a program on disk and a program running in memory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-25"
+              "title": "Explain the difference between a program on disk and a program running in memory"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "vault/04-concepts/Cache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for Cache"
             }
           },
           {
@@ -171,16 +185,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "vault/04-concepts/SSD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of SSD"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -200,53 +215,53 @@
   },
   "active": "14ec8093fd4b98a5",
   "lastOpenFiles": [
-    "vault/02-daily/2026-04-24.md",
-    "vault/02-daily/2026-04-25.md",
-    "vault/03-sources/cs50-lec-01.md",
-    "vault/04-concepts/Code Evaluation.md",
-    "[Programming Basics.md",
-    "vault/04-concepts/Programming Basics.md",
-    "vault/04-concepts/Compiler.md",
-    "vault/04-concepts/Algorithms.md",
-    "vault/03-sources/cs50-lec-00.md",
-    "assignments/claude/week-1-question.md",
+    "vault/09-ultimate-learnings/Trace what happens from pressing a key to a character appearing on screen, at whatever depth asked..md",
+    "vault/09-ultimate-learnings/Explain the difference between a program on disk and a program running in memory.md",
+    "vault/09-ultimate-learnings/Explain the difference between compiled and interpreted languages, and what a compiler actually does..md",
+    "vault/09-ultimate-learnings/Describe what an OS does - process, thread, file system, virtual memory, kernel vs user space.md",
+    "vault/09-ultimate-learnings/Untitled",
+    "vault/09-ultimate-learnings/Describe one full fetch-decode-execute cycle, what each stage does and what synchronizes them.md",
+    "vault/09-ultimate-learnings/Trace gates → CPU - how gates combine into an ALU, how flip-flops combine into registers and RAM.md",
+    "vault/09-ultimate-learnings/Show how a number, an ASCII character, a pixel, and a sound sample are all stored as bit sequences..md",
+    "vault/09-ultimate-learnings/Explain why computers use binary.md",
+    "vault/09-ultimate-learnings/Compare the memory hierarchy - register, L1-L2-L3 cache, RAM, SSD, HDD — what each is for, rough speed and cost differences, why we have multiple levels..md",
+    "vault/04-concepts/Abstraction.md",
+    "vault/04-concepts/Device Drivers.md",
+    "vault/04-concepts/Operating System.md",
+    "vault/04-concepts/L1-L2-L3-cache.md",
+    "vault/03-sources/crash-course-cs-ep20.md",
+    "vault/03-sources/crash-course-cs-ep21.md",
+    "vault/03-sources/crash-course-cs-ep18.md",
+    "vault/03-sources/crash-course-cs-ep17.md",
+    "vault/04-concepts/Kernel.md",
+    "vault/04-concepts/Lossy Compression.md",
+    "vault/04-concepts/Lossless Compression.md",
+    "vault/04-concepts/Sequential vs. Random Access.md",
+    "vault/04-concepts/Memory Hierarchy.md",
+    "vault/04-concepts/File Headers.md",
+    "vault/04-concepts/The Directory File.md",
+    "vault/04-concepts/Moore's Law.md",
+    "vault/04-concepts/Thread.md",
+    "media/Gemini_Generated_Image_px59u1px59u1px59.png",
+    "vault/09-ultimate-learnings",
+    "media/Registers & RAM.canvas",
+    "media/Screenshot 2026-04-23 092812.png",
+    "media/Boolean Gate State Diagram.canvas",
     "assignments/cs50/lec-01-C/hello.c",
-    "assignments/cs50/lec-01-C.md",
     "assignments/cs50/lec-01-C",
     "assignments/cs50",
     "assignments/claude",
     "assignments",
-    "vault/04-concepts/Programs.md",
-    "vault/03-sources/crash-course-cs-ep08.md",
-    "engineering/README.md",
     "engineering",
-    "vault/04-concepts/Clock.md",
-    "vault/03-sources/crash-course-cs-ep07.md",
-    "vault/02-daily/2026-04-23.md",
-    "vault/02-daily/2026-04-22.md",
-    "vault/02-daily/2026-04-21.md",
-    "vault/04-concepts/CPU.md",
-    "vault/04-concepts/RAM.md",
-    "vault/04-concepts/ALU.md",
-    "vault/04-concepts/Register.md",
-    "vault/03-sources/crash-course-cs-ep06.md",
-    "vault/05-ai-chats/gemini-RAM-vs-Register-confusions.md",
-    "media/Registers & RAM.canvas",
-    "media/Gemini_Generated_Image_px59u1px59u1px59.png",
     "media/Screenshot 2026-04-23 092859.png",
     "media/Screenshot 2026-04-24 094735.png",
     "media/Screenshot 2026-04-24 094709.png",
     "media/Screenshot 2026-04-24 094643.png",
     "media/Screenshot 2026-04-24 094137.png",
-    "vault/03-sources/crash-course-cs-ep05.md",
     "media/Screenshot 2026-04-23 093107.png",
-    "media/Boolean Gate State Diagram.canvas",
     "media/Screenshot 2026-04-24 094608.png",
     "media/Screenshot 2026-04-24 094527.png",
-    "media/Screenshot 2026-04-24 094359.png",
     "media",
-    "Untitled.base",
-    "vault/08-reviews",
-    "vault/07-weak-spots"
+    "Untitled.base"
   ]
 }

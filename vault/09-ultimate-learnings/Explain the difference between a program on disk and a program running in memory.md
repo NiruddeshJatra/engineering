@@ -1,0 +1,1 @@
+A program file can be stored on disk (such as an SSD or HDD), but when it runs, it is loaded into RAM for faster execution and is executed from volatile memory.

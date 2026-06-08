@@ -1,3 +1,7 @@
+---
+date: 2026-04-24
+---
+
 ## Q: What does 256 bits of memory store? Just 1 bit or 256 bit? In a 64 bit computer, everything is represented by 64 sequence of 0s and 1s. In those computers, what type of register is used? If 64 bit (8 * 8) is used, why have we studied 256 bits of memory?! What's the difference between a Register and a 256-bit memory?
 
 A: *Based on the transcript you provided, you are hitting a classic point of confusion in computer architecture: the difference between **capacity** (how much it holds) and **word size** (how much it handles at once).*

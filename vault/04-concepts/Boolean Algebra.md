@@ -1,5 +1,8 @@
-
-#medium 
+---
+tags:
+  - medium
+source: "[[crash-course-cs-ep03]]"
+---
 
 ## Definition
 Algebra written by George Boole based on logic
@@ -15,9 +18,5 @@ Algebra written by George Boole based on logic
 ## Why it matters to me as a dev
 In programming, we use conditional statements almost everywhere and it resembles Boolean Logic
 
-## Open questions
-None
-
-## Links
-- Contains: [[Transistors]], [[Logic Gate]]
-- Source: [[crash-course-cs-ep03]]
+## In my words
+Boolean logic is implemented by [[Logic Gate]], Boolean logic is also connected to [[Binary Numbers]]

@@ -1,8 +1,11 @@
-
-#story
+---
+tags:
+  - story
+source: "[[crash-course-cs-ep02]]"
+---
 
 ## Definition
-built by Herman Hollerith for punched card to assist in summarizing information and, later, in accounting.
+built by Herman Hollerith where punched card is used to assist in summarizing information and, later, in accounting.
 
 ## Details
 - In the machine, holes are used to represent data
@@ -11,9 +14,5 @@ built by Herman Hollerith for punched card to assist in summarizing informatio
 ## Why it matters to me as a dev
 He thought to solve the problem differently
 
-## Open questions
-None
-
-## Links
-- Contains: [[Difference & Analytical Engine]], [[Vacuum Tube Based Computers]], [[Relay Based Computers]]
-- Source: [[crash-course-cs-ep01]]
+## In my words
+[[Binary Numbers]] are also ways to represent information and here they used punch cards and holes to represent information, unique.

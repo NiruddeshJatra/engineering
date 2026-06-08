@@ -1,5 +1,8 @@
-
-#story
+---
+tags:
+  - story
+source: "[[crash-course-cs-ep01]]"
+---
 
 ## Definition
 First machine built to store numbers.
@@ -13,9 +16,7 @@ Abacas works like this: imagine a machine with four rows made with rods of wood 
 ## Why it matters to me as a dev
 Interesting how anything can be thought to represent numbers. For example, fingers also.
 
-## Open questions
-None
-
-## Links
-- Contains: [[Computer]]
-- Source: [[crash-course-cs-ep01]]
+## In my words
+- storing numbers - wtf is this? Oh, a device which can represent numbers? Oh, yes.
+- That means abacus can be any device using rows and elements. Rows for multipliers of 10 and elements for the digit, correct?
+- Later, [[Step Reckoner]] was the advancement of it, correct?

@@ -1,5 +1,8 @@
-
-#medium   
+---
+tags:
+  - story
+source: "[[crash-course-cs-ep07]]"
+---
 
 ## Definition
 software that translates source code into machine code
@@ -10,9 +13,5 @@ software that translates source code into machine code
 ## Why it matters to me as a dev
 Knowing this can help me understand errors and bugs in my written code, I can at least understand why this piece of code didn't get compiled.
 
-## Open questions
-None
-
-## Links
-- Contains: [[Programs]], [[Binary Numbers]], [[ASCII & Unicode]]
-- Source: [[cs50-lec-01]]
+## In my words
+When we run a [[Programs]], first every line of the [[Algorithms]] gets translated into [[Binary Numbers]], [[ASCII & Unicode]] and gets stored in [[RAM]], I think. Compiler does this translation.

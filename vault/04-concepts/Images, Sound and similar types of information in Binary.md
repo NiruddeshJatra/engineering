@@ -1,5 +1,8 @@
-
-#medium 
+---
+tags:
+  - medium
+source: "[[crash-course-cs-ep04]]"
+---
 
 ## Definition
 standard code for representing image and sound
@@ -11,9 +14,5 @@ standard code for representing image and sound
 ## Why it matters to me as a dev
 Understanding how anything possible can be made of some combination of numbers and turning those numbers to binary to store and use it in computers in mind blowing.
 
-## Open questions
-None
-
-## Links
-- Contains: [[Boolean Algebra]], [[Logic Gate]], [[ASCII & Unicode]]
-- Source: [[crash-course-cs-ep04]]
+## In my words
+Everything comes down to [[Binary Numbers]] and [[Logic Gate]].

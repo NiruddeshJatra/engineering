@@ -1,5 +1,8 @@
-
-#story
+---
+tags:
+  - story
+source: "[[crash-course-cs-ep02]]"
+---
 
 ## Definition
 Used vacuum tubes
@@ -20,9 +23,5 @@ Used vacuum tubes
 ## Why it matters to me as a dev
 Computer's journey from mechanical to electromechanical era
 
-## Open questions
-None
-
-## Links
-- Contains: [[Relay Based Computers]], [[Electromechanical Tabulating machine]], [[Transistors]]
-- Source: [[crash-course-cs-ep02]]
+## In my words
+Didn't understand how it works, but skipping as knowing the details here isn't necessary for me. But the progression is visible: [[Electromechanical Tabulating machine]] -> [[Relay Based Computers]] -> [[Vacuum Tube Based Computers]] -> [[Transistors]]

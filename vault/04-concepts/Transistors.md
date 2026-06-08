@@ -1,5 +1,8 @@
-
-#story
+---
+tags:
+  - medium
+source: "[[crash-course-cs-ep02]]"
+---
 
 ## Definition
 semiconductor based chip
@@ -16,9 +19,11 @@ semiconductor based chip
 ## Why it matters to me as a dev
 Transistor revolutionized modern computers, then economy and information network boomed
 
-## Open questions
-None
+## In my words
+Transistor is one thing that I still struggle with. Need revision of how it works in details (though not in my syllabus). I found out that I can explain it clearly to anyone but still some doubt stays in my mind, like how I explain it is understandable, but is it accurate?
 
 ## Links
-- Contains: [[Relay Based Computers]], [[Electromechanical Tabulating machine]]
-- Source: [[crash-course-cs-ep02]]
+- **Implements / Implemented by:** [[Transistors]] → [[Logic Gate]] → [[Boolean Algebra]]
+- **Built from / Built into:** [[Latch]] → [[Register]] → [[CPU]]
+- **Used by / Uses:** [[ALU]] uses [[Logic Gate]]
+- **Related to:**: [[Relay Based Computers]], [[Electromechanical Tabulating machine]]

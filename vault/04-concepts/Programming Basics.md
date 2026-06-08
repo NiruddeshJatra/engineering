@@ -1,5 +1,8 @@
-
-#medium   
+---
+tags:
+  - story
+source: "[[crash-course-cs-ep08]]"
+---
 
 ## Definition
 basic features that every programming languages has
@@ -16,9 +19,5 @@ basic features that every programming languages has
 This is what we do, we write code. Knowing the rules of the coding game is the basic thing to know
 
 
-## Open questions
-None
-
-## Links
-- Contains: [[Programs]], [[Compiler]]
-- Source: [[cs50-lec-01]]
+## In my words
+What not to know about this? We write [[Programs]] using some guided syntax, use libraries, conditionals, loops and functions, and they gets executed after being compiled by [[Compiler]]

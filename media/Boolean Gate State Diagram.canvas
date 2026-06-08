@@ -7,7 +7,7 @@
 		{"id":"bb52918794dbf833","type":"file","file":"media/Screenshot 2026-04-23 093158.png","x":-221,"y":-640,"width":400,"height":228},
 		{"id":"d50aa9ba545b6268","type":"file","file":"media/Screenshot 2026-04-23 093107.png","x":-221,"y":-980,"width":400,"height":223},
 		{"id":"e5a4ee6a95697667","type":"text","text":"**NOT GATE - OFF**","x":-219,"y":20,"width":250,"height":60},
-		{"id":"02432b911c664f70","x":-221,"y":120,"width":400,"height":247,"type":"file","file":"media/Screenshot 2026-04-23 092859.png"}
+		{"id":"02432b911c664f70","type":"file","file":"media/Screenshot 2026-04-23 092859.png","x":-221,"y":120,"width":399,"height":247}
 	],
 	"edges":[]
 }

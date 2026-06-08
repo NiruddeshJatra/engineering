@@ -1,5 +1,8 @@
-
-#medium 
+---
+tags:
+  - medium
+source: "[[crash-course-cs-ep04]]"
+---
 
 ## Definition
 2-base representation of number
@@ -16,9 +19,5 @@
 ## Why it matters to me as a dev
 Understanding how any number can be converted to binary is fascinating
 
-## Open questions
-None
-
-## Links
-- Contains: [[Boolean Algebra]], [[Logic Gate]], [[ASCII & Unicode]]
-- Source: [[crash-course-cs-ep04]]
+## In my words
+[[ASCII & Unicode]] all comes down to this. [[ALU]] also performs conversions using [[Encoder]] for turning keyboard inputs into binary numbers.

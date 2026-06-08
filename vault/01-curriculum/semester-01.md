@@ -14,18 +14,22 @@
 
 #### What to Study (20 hours)
 
-**Topic 1: CPU, Memory, Storage (8 hours)**
+**Topic 1: CPU, Memory, Storage, Operating Systems (16 hours)**
 
-Watch: Crash Course Computer Science — Episodes 1 to 8 Link: [https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
+Watch: Crash Course Computer Science — Episodes 1 to 8, Episodes 18 to 21. 
+Link: [https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
 
 What you must understand clearly after watching:
 
 - What does a CPU actually do per clock cycle?
-- What is RAM and why is it faster than your SSD by 1000x?
-- What is a register? What is cache (L1/L2/L3)?
-- What is binary and why do computers use it?
-- What is a bit? A byte? A kilobyte? Why does this matter for code?
-- What is the difference between a program on disk and a program running in memory?
+- What is RAM, what is cache (L1/L2/L3), what is SSD/HDD — and why is each one ~1000x slower than the next?
+- What is a register? Why is it faster than cache?
+- What is binary and why do computers use it? What's a bit, byte, KB, MB, GB?
+- What is the difference between a program on disk vs a program running in memory?
+- What is an OS? What would happen without one?
+- What is a process? What is a thread?
+- What is a file system? What happens when you create a file?
+- What is virtual memory? Why does your computer not crash when one app uses too much RAM?
 
 **Topic 2: How Code Becomes Execution (6 hours)**
 
@@ -37,15 +41,6 @@ What you must understand:
 - What is an interpreter vs a compiler?
 - What is machine code?
 - What does "running a program" actually mean at the hardware level?
-
-**Topic 3: Operating Systems — What They Do (6 hours)**
-
-Watch: Crash Course Computer Science — Episodes 18 to 21 What you must understand:
-
-- What is an OS? What would happen without one?
-- What is a process? What is a thread?
-- What is a file system? What happens when you create a file?
-- What is virtual memory? Why does your computer not crash when one app uses too much RAM?
 
 #### What to Build/Practice (7 hours)
 

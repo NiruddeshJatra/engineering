@@ -1,5 +1,8 @@
-
-#medium 
+---
+tags:
+  - medium
+source: "[[crash-course-cs-ep04]]"
+---
 
 ## Definition
 standard code for representing letter and other language symbols
@@ -11,9 +14,5 @@ standard code for representing letter and other language symbols
 ## Why it matters to me as a dev
 Understanding how any letter can be converted to binary is fascinating
 
-## Open questions
-None
-
-## Links
-- Contains: [[Boolean Algebra]], [[Logic Gate]], [[Images, Sound and similar types of information in Binary]]
-- Source: [[crash-course-cs-ep04]]
+## In my words
+So, [[Encoder]] just turns keyboard inputs to these ASCII and Unicode representation and saves them in [[RAM]]. [[Images, Sound and similar types of information in Binary]] are also these similar type of representation, actually.

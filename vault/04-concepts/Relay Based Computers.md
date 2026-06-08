@@ -1,5 +1,8 @@
-
-#story
+---
+tags:
+  - story
+source: "[[crash-course-cs-ep02]]"
+---
 
 ## Definition
 Used relay - electromechanical switches
@@ -20,9 +23,5 @@ Used relay - electromechanical switches
 ## Why it matters to me as a dev
 Another improvement, another large-scale use
 
-## Open questions
-None
-
-## Links
-- Contains: [[Difference & Analytical Engine]], [[Electromechanical Tabulating machine]], [[Transistors]]
-- Source: [[crash-course-cs-ep02]]
+## In my words
+I think [[Transistors]] were built by taking inspiration from this setup. [[Vacuum Tube Based Computers]] also does something similar but using tubes.
