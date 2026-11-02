@@ -1,0 +1,28 @@
+filters:
+  and:
+    - file.inFolder("02-sources")
+views:
+  - type: table
+    name: All
+    order:
+      - file.name
+      - module
+      - kind
+  - type: table
+    name: Module 1
+    filters:
+      and:
+        - module == 1
+    order:
+      - file.name
+      - module
+      - kind
+  - type: table
+    name: Module 2
+    filters:
+      and:
+        - module == 2
+    order:
+      - file.name
+      - module
+      - kind

@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.inFolder("05-syntheses")
+views:
+  - type: table
+    name: Review queue
+    order:
+      - file.name
+      - module
+      - score
+      - last_recalled
+    sort:
+      - property: last_recalled
+        direction: ASC

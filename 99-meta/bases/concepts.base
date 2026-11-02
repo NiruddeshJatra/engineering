@@ -1,0 +1,31 @@
+filters:
+  and:
+    - file.inFolder("03-concepts")
+views:
+  - type: table
+    name: All
+    order:
+      - file.name
+      - module
+      - tags
+      - source
+  - type: table
+    name: Module 1
+    filters:
+      and:
+        - module == 1
+    order:
+      - file.name
+      - module
+      - tags
+      - source
+  - type: table
+    name: Module 2
+    filters:
+      and:
+        - module == 2
+    order:
+      - file.name
+      - module
+      - tags
+      - source
