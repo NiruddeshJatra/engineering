@@ -1,0 +1,35 @@
+filters:
+  and:
+    - file.inFolder("04-questions")
+    - file.name != "weak-spots"
+views:
+  - type: table
+    name: Open
+    filters:
+      and:
+        - status == "open"
+    order:
+      - file.name
+      - status
+      - module
+      - asked
+      - ai
+  - type: table
+    name: Module 2
+    filters:
+      and:
+        - module == 2
+    order:
+      - file.name
+      - status
+      - module
+      - asked
+      - ai
+  - type: table
+    name: All
+    order:
+      - file.name
+      - status
+      - module
+      - asked
+      - ai
