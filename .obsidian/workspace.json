@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vault/09-ultimate-learnings/Compare the memory hierarchy - register, L1-L2-L3 cache, RAM, SSD, HDD — what each is for, rough speed and cost differences, why we have multiple levels..md",
+                "file": "vault/06-questions/open-questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Compare the memory hierarchy - register, L1-L2-L3 cache, RAM, SSD, HDD — what each is for, rough speed and cost differences, why we have multiple levels."
+              "title": "open-questions"
             }
           }
         ],
@@ -70,7 +70,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTimeReverse",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -215,8 +217,18 @@
   },
   "active": "14ec8093fd4b98a5",
   "lastOpenFiles": [
-    "vault/09-ultimate-learnings/Trace gates → CPU - how gates combine into an ALU, how flip-flops combine into registers and RAM.md",
+    "vault/05-ai-chats/gemini-one-example-to-connect-all-components.md",
+    "vault/05-ai-chats/gemini-encoder-decoder.md",
+    "vault/05-ai-chats/gemini-character-to-byte-in-memory.md",
+    "vault/05-ai-chats/gemini-cache-vs-register.md",
+    "vault/05-ai-chats/gemini-stuffs-to-remember-as-SWE.md",
+    "vault/writing-style-guide.md",
+    "vault/04-concepts/Multiplexer.md",
+    "vault/01-curriculum/semester-01.md",
+    "vault/01-curriculum/progress-tracker.md",
+    "vault/01-curriculum/week-2.md",
     "vault/09-ultimate-learnings/Compare the memory hierarchy - register, L1-L2-L3 cache, RAM, SSD, HDD — what each is for, rough speed and cost differences, why we have multiple levels..md",
+    "vault/09-ultimate-learnings/Trace gates → CPU - how gates combine into an ALU, how flip-flops combine into registers and RAM.md",
     "vault/09-ultimate-learnings/Explain how a bit is physically stored - transistor as switch → logic gate → flip-flop.md",
     "vault/04-concepts/Transistors.md",
     "vault/09-ultimate-learnings/Trace what happens from pressing a key to a character appearing on screen, at whatever depth asked..md",
@@ -232,16 +244,6 @@
     "vault/06-questions/open-questions.md",
     "vault/07-weak-spots/weak-spots.md",
     "vault/09-ultimate-learnings/Untitled",
-    "vault/04-concepts/Abstraction.md",
-    "vault/04-concepts/Device Drivers.md",
-    "vault/04-concepts/Operating System.md",
-    "vault/04-concepts/L1-L2-L3-cache.md",
-    "vault/03-sources/crash-course-cs-ep20.md",
-    "vault/03-sources/crash-course-cs-ep21.md",
-    "vault/03-sources/crash-course-cs-ep18.md",
-    "vault/03-sources/crash-course-cs-ep17.md",
-    "vault/04-concepts/Kernel.md",
-    "vault/04-concepts/Lossy Compression.md",
     "media/Gemini_Generated_Image_px59u1px59u1px59.png",
     "vault/09-ultimate-learnings",
     "media/Registers & RAM.canvas",
