@@ -3,6 +3,10 @@ type: module
 module: 1
 status: closed
 ---
+> [!info] Module 1: closed 2026-07-02, exam 7.5/10
+> Weakest: fetch-decode-execute and memory hierarchy (cold retest 2026-10-04: 0.6 and 0.55).
+> See [[m01-fetch-decode-execute]] and [[m01-memory-hierarchy]].
+
 # Week 1 — Foundations of Computing
 
 
@@ -65,3 +69,8 @@ For each command, write **two lines in `assignments/week-01-terminal.md`**: what
 - [x] 5-minute explanation test
 - [ ] Review weak-spots.md
 - [ ] Write week-01-review.md
+
+## Views
+![[concepts.base#Module 1]]
+
+![[syntheses.base]]
