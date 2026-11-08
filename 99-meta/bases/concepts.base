@@ -25,8 +25,11 @@ views:
       and:
         - module == 2
     order:
+      - order
       - file.name
-      - module
+      - unit
       - tags
-      - source
-    sort: []
+      - written_by
+    sort:
+      - property: order
+        direction: ASC
