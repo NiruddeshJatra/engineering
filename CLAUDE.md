@@ -9,6 +9,8 @@ This repo is Nasif's Obsidian vault (`.obsidian/` at the root) for a self-study 
 - Never delete a frontmatter property. Add or merge only.
 - Progress and status live in Notion, not here. Don't write status text that will go stale.
 - `media/` is attachments only. Leave its files where and as they are.
+- **Every note says who wrote it:** `written_by: nasif | claude | mixed`. Never present Claude-written text as Nasif's. When Claude adds corrections to a Nasif-written note, they go in a separate `## Corrections` section below his text, never edited into it.
+- Raw dumps (pasted AI chats, old drafts) are processed, then moved verbatim to `_archive/raw-m0N/`. Never delete them.
 
 ## Layout
 
@@ -16,8 +18,8 @@ This repo is Nasif's Obsidian vault (`.obsidian/` at the root) for a self-study 
 00-home.md         dashboard (embeds Bases views)
 01-modules/        one hub note per module + semester-01.md
 02-sources/        one note per chapter / episode / article
-03-concepts/       atoms, flat, never per-module subfolders
-04-questions/      one q- file per question asked to a human or AI; weak-spots.md log
+03-concepts/       concept notes, flat, never per-module subfolders
+04-questions/      open questions only (q- files) + weak-spots.md log
 05-syntheses/      cold answers to module questions
 06-assignments/    exams, retests, code
 99-meta/           templates/, bases/, writing-style-guide.md
@@ -33,7 +35,7 @@ The module is a **property**, not a folder: concepts cross modules.
 |---|---|
 | `01-modules/` | `type: module`, `module: <n>` (`0` = semester overview), `status: closed\|active\|planned` |
 | `02-sources/` | `type: source`, `module`, `kind: book\|video\|article\|lecture` |
-| `03-concepts/` | `type: concept`, `module` (where first learned), plus existing `tags` (depth: `deep`/`medium`/`story`) and `source` |
+| `03-concepts/` | `type: concept`, `module` (where first learned), plus existing `tags` (depth: `deep`/`medium`/`story`) and `source`. Module reading-order notes also have `unit` and `order` |
 | `04-questions/` | `type: question`, `module`, `status: open\|answered\|promoted`, `asked`, `ai`, `source`, `concepts` (optional `follows`) |
 | `05-syntheses/` | `type: synthesis`, `module`, `question`, `score`, `last_recalled` |
 | `06-assignments/` | `type: assignment`, `module` |
@@ -45,8 +47,9 @@ Templates for each type are in `99-meta/templates/`.
 ## Naming
 
 - `m0N-` prefix only for module-bound files: syntheses, assignments, module hubs (e.g. `m02-internet.md`, `m01-why-binary.md`).
-- Concepts and sources keep plain names (`Cache.md`, `crash-course-cs-ep07.md`). Concept filenames are link targets — never rename them casually.
-- Question files: `q-<short-kebab-slug>.md`.
+- **Module reading-order notes** (from Module 2 on): `03-concepts/m0N-NN-<slug>.md`, numbered in reading order, each self-contained, with previous/next links at the bottom and Nasif's own questions quoted inline (`> [!question]`) at the point where they arise. The module hub lists the order.
+- Standalone concepts (Module 1 atoms) and sources keep plain names (`Cache.md`, `crash-course-cs-ep07.md`). Concept filenames are link targets — never rename them casually.
+- Question files: `q-<short-kebab-slug>.md`. From Module 2 on, answered questions live inside the reading-order notes; `q-` files are only for questions still open.
 
 ## Weekly audit checklist
 
@@ -56,4 +59,5 @@ Report findings; don't fix wording.
 2. Files outside `_archive/` and `99-meta/` (except `README.md`, `CLAUDE.md`) missing `type` or `module`.
 3. Questions with `status: open` and `asked` older than 14 days (or `asked` still a TODO).
 4. Question files whose "What I now understand" section is empty or still a `TODO (Nasif)`.
-5. Concept count per module vs the cap (Module 2 cap: 7).
+5. Module 2+ files missing `written_by` (outside `_archive/`), and any Claude-written text inside a `written_by: nasif` note that isn't in a `## Corrections` section.
+6. Reading-order notes whose previous/next links are broken or out of sequence with the hub.
