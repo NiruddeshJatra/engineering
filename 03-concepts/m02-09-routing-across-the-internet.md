@@ -29,7 +29,7 @@ Yes. IP (*Internet Protocol*) is the network layer's protocol: it defines the da
 There are two different jobs here, and confusing them is a classic mistake.
 
 - **Forwarding** is what a router does to *each datagram*: look up the destination in a table and send it out of the right link. It has to take nanoseconds, so it's done in dedicated hardware. This is the **data plane**.
-- **Routing** is how that table *gets built*: routers exchange information with their neighbours, work out where each block of addresses can be reached, and fill in the table. It runs continuously in the background, on a normal processor, and reacts to changes in seconds. This is the **control plane**.
+- **Routing** is how that table *gets built*: routers exchange information with their neighbors, work out where each block of addresses can be reached, and fill in the table. It runs continuously in the background, on a normal processor, and reacts to changes in seconds. This is the **control plane**.
 
 Kurose's driving analogy: forwarding is getting through one motorway junction (take this exit); routing is planning the whole trip before you leave. A router does the second in the background so that it only has to do the first when a datagram arrives.
 

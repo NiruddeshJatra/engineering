@@ -20,7 +20,11 @@ There are two basic ways to share.
 
 ## Circuit switching: reserve a lane
 
-The old telephone network reserved resources. When you dialled a number, the network set up a **circuit**: a fixed slice of capacity on every link from you to the other phone, held for you alone until you hung up. On a link, the slices can be made by giving each call its own frequency band (frequency-division multiplexing) or its own repeating time slot (time-division multiplexing).
+The old telephone network reserved resources. When you dialed a number, the network set up a **circuit**: a fixed slice of capacity on every link from you to the other phone, held for you alone until you hung up. On a link, these dedicated slices can be created in two ways:
+
+- **Frequency-Division Multiplexing (FDM):** Everyone speaks simultaneously, but each call is assigned its own unique frequency band (or pitch range) using a modulated carrier wave, ensuring they never bleed into each other—just like different radio stations broadcasting at the same time on separate frequencies.
+
+- **Time-Division Multiplexing (TDM):** Everyone shares the entire frequency bandwidth of the wire, but they take turns in rapid succession. The network chops time into repeating slots, giving each ongoing call 100% of the channel's capacity for a brief fraction of a millisecond at a time, cycling through calls thousands of times per second to create a seamless, full-duplex illusion.
 
 The advantage is a guaranteed, constant rate. Nobody else can slow you down, because your slice is yours.
 

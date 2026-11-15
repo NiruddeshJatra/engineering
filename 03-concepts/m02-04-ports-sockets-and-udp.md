@@ -31,14 +31,14 @@ Think of a large office block. The IP address is the building's street address. 
 
 **Servers listen on well-known ports**, so clients know where to knock without being told:
 
-| Port | Service |
-|---|---|
-| 53 | DNS |
+| Port    | Service                |
+| ------- | ---------------------- |
+| 53      | DNS                    |
 | 67 / 68 | DHCP (server / client) |
-| 80 | HTTP |
-| 443 | HTTPS |
-| 22 | SSH |
-| 5432 | PostgreSQL |
+| 80      | HTTP                   |
+| 443     | HTTPS                  |
+| 22      | SSH                    |
+| 5432    | PostgreSQL             |
 
 When you type `https://bhara.com`, the browser knows to connect to port 443 because that's the convention for HTTPS. A URL like `http://localhost:8000` names the port explicitly.
 
