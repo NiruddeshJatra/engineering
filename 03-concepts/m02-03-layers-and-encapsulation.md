@@ -10,7 +10,7 @@ source: "[[kurose-ch01]]"
 ---
 # 3. Layers and encapsulation
 
-*Where we are: we know what the Internet is made of and how packets share links. Before sending anything, we need the idea that organises everything else: dividing the work into layers.*
+*Where we are: we know what the Internet is made of and how packets share links. Before sending anything, we need the idea that organizes everything else: dividing the work into layers.*
 
 ## The problem
 
@@ -55,13 +55,13 @@ If the airline replaces its planes, the ticket office doesn't change. That indep
 
 The Internet divides the work into five layers. Each layer has a job, a name for its unit of data, and a place where it runs.
 
-| Layer | Its one job | Unit of data | Runs in | Example protocols |
-|---|---|---|---|---|
-| 5. Application | Say what is being asked for and what the answer means | **message** | Programs (browser, web server) | HTTP, DNS, DHCP |
-| 4. Transport | Deliver data to the right *program*, reliably if needed | **segment** | Operating system kernel, hosts only | TCP, UDP |
-| 3. Network | Deliver data to the right *machine*, across networks | **datagram** | Kernel on hosts; dedicated chips in routers | IP |
-| 2. Link | Deliver data to the *next device* on one link | **frame** | Network card (NIC) and its driver; switches | Ethernet, Wi-Fi |
-| 1. Physical | Move individual bits as signals | bits | Transceiver hardware | Copper, fibre, radio |
+| Layer          | Its one job                                             | Unit of data | Runs in                                     | Example protocols    |
+| -------------- | ------------------------------------------------------- | ------------ | ------------------------------------------- | -------------------- |
+| 5. Application | Say what is being asked for and what the answer means   | **message**  | Programs (browser, web server)              | HTTP, DNS, DHCP      |
+| 4. Transport   | Deliver data to the right *program*, reliably if needed | **segment**  | Operating system kernel, hosts only         | TCP, UDP             |
+| 3. Network     | Deliver data to the right *machine*, across networks    | **datagram** | Kernel on hosts; dedicated chips in routers | IP                   |
+| 2. Link        | Deliver data to the *next device* on one link           | **frame**    | Network card (NIC) and its driver; switches | Ethernet, Wi-Fi      |
+| 1. Physical    | Move individual bits as signals                         | bits         | Transceiver hardware                        | Copper, fibre, radio |
 
 "Packet" is the general word for any of these units. When precision matters, use the layer's own name. In particular, the network-layer unit is a **datagram**, and a **segment** lives *inside* a datagram. Your Kurose notes already had this right: "Message: application layer packet; Segment: transport layer packet; Datagram: network layer packet; Frame: link layer packet."
 
@@ -131,7 +131,7 @@ Your frustration was partly right. Layering has real costs.
 - **Leaks.** Real systems break the rules when it pays. Your home router reads and rewrites TCP port numbers (layer 4) even though it's a layer-3 device (note 8). TCP's checksum covers the IP addresses, which belong to the layer below.
 - **Translation steps.** Two address systems (IP and MAC) mean something must translate between them (ARP, note 7).
 
-So "we sacrifice some convenience for the layers" is true. What we get in return is that thousands of independent organisations can build and replace parts of the system without coordinating with each other. For a system nobody owns, that is the only way it could have grown.
+So "we sacrifice some convenience for the layers" is true. What we get in return is that thousands of independent organizations can build and replace parts of the system without coordinating with each other. For a system nobody owns, that is the only way it could have grown.
 
 > [!tip] When the answer to "why" is history
 > Some of your "why" questions have the answer "because of the order in which things were built, and replacing them now would cost more than it saves." That is a real engineering answer, not a dodge. Note 7 (MAC addresses) is the clearest example. Accept those answers when the history is stated plainly; push back when someone dresses history up as a law of nature.
@@ -149,7 +149,7 @@ Errors are checked at several layers, and each check catches something the other
 | TLS (if used) | Cryptographic integrity tag | Deliberate tampering |
 | The application | Valid request, permissions | Malformed or unauthorised requests |
 
-The link check guards one hop only. Once a router has accepted a frame and rebuilt a new one, that check is gone. A router could corrupt data in memory after the check passed, and a lost datagram is invisible to every link. Only the two endpoints can confirm that the *whole* trip worked. Lower-layer checks are an optimisation; the end-to-end check is the guarantee.
+The link check guards one hop only. Once a router has accepted a frame and rebuilt a new one, that check is gone. A router could corrupt data in memory after the check passed, and a lost datagram is invisible to every link. Only the two endpoints can confirm that the *whole* trip worked. Lower-layer checks are an optimization; the end-to-end check is the guarantee.
 
 ## Slips to avoid
 

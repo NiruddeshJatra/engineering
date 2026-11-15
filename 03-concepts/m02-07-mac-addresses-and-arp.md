@@ -150,7 +150,7 @@ No configuration is needed, and the switch never looks at IP. That's the indepen
 - **"MAC between device and router, IP between routers."** Link addresses on every hop; IP addresses end to end.
 - **"The laptop asks ARP for the server's MAC address."** It asks for the next hop's: the gateway's, for anything remote.
 - **"ARP crosses the Internet."** ARP never leaves the local link.
-- **"MAC addresses are permanent identities."** They're local delivery labels, often randomised on phones.
+- **"MAC addresses are permanent identities."** They're local delivery labels, often randomized on phones.
 
 ## Try it (Windows)
 
